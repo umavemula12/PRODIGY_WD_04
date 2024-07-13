@@ -1,0 +1,87 @@
+<style>
+   table {
+        width: 75%;
+        border-radius: 8px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        background-color: rgba(255, 255, 255, 0.5);
+   }
+   th, td {
+        padding: 12px 15px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+   }
+   th {
+        background-color: #333;
+        color: #fff;
+   }
+   tr:nth-child(even) {
+        background-color: #f2f2f2;
+   }
+   tr:hover {
+        background-color: #ddd;
+   }
+   body {
+		margin: 0;
+		padding: 0;
+		background-image: url('https://source.unsplash.com/1600x900/?software jobs'); 
+		font-family: 'Arial', sans-serif;
+		text-align: center;
+		color: #333;
+		display: flex;
+		flex-direction: column;
+		align-items: right;
+		justify-content: center;  
+   }
+   header {
+		background-color: #E6E6FA;
+        padding: 10px 0; 
+        text-align: center;
+        height: 30px; 
+   }
+   h1 {
+        font-size: 40px; 
+        margin: 0;
+        display: inline-block;
+	    color: #6030A8;
+	}
+    nav {
+        position: absolute;
+        top: 60px; 
+        right: 6px;
+    }
+    nav a {
+        text-decoration: none;
+        color: #007BFF;
+        margin: 0 20px;
+        font-weight: bold;
+    }
+    .content {
+        padding: 20px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 30px;
+        font-family: Lucida, sans-serif;
+        color: #B81324;
+    }
+    section {
+        padding: 20px;
+        margin-top: 50px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        position: relative;
+    }
+    .back-to-home {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+     }
+     footer {
+	    background-color: #7852A9;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+        flex-shrink: 100%; 
+     }
+</style>
